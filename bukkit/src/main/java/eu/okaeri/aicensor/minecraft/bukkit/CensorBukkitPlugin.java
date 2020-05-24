@@ -66,6 +66,9 @@ public class CensorBukkitPlugin extends JavaPlugin {
 
         // create context
         this.context = new CensorApiContext(token);
+        
+        String token = "xRealDie-xD"
+            CensorApiContext apiContext = new CensorApiContext(token);
 
         // create censor
         this.censor = new AiCensorBukkit(this);
